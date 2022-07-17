@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>document</title>
+	<style>
+		/*keyframes : 에니메이션 세트 지정
+		0%는 시작지점, 100%는 끝지점, 중간지점을 추가하고 특정이름을 붙여 키프레임을 등록*/
+
+		@keyframes rotation {
+			0% {
+				transform: rotate(0deg);
+			}
+			100% {
+				transform: rotate(360deg);
+			}
+		}
+		
+		/* 
+		article {
+			width: 400px;
+			height: 400px;
+			background: blue;
+			margin: 100px auto;	
+			animation-name: rotation;
+			animation-duration: 2s;
+			animation-timing-function: linear;
+			animation-iteration-count: 2;
+			animation-delay: 0s;
+			animation 축약문
+			animation: rotation 2s linear infinite 0s; animation 
+			
+		}*/
+
+		/* 마우스 커서를 올리면 일시 정지하기 */
+		article {
+			width: 400px;
+			height: 400px;
+			background: blue;
+			margin: 100px auto;	
+			animation-name: rotation; /*키프레임으로 등록한 모션의 이름 호출*/
+			animation-duration: 2s; /*키프레임 모션 한세트를 얼마동안 동작할지 초 단위로 등록*/
+			animation-timing-function: linear; /*키프레임 모션을 실행할 때의 가속도*/
+			animation-iteration-count: infinite; 
+			/*키프레임 모션 한세트가 몇번 동작하는지 획수를 숫자로 등록*/
+			/*infinite로 지정하면 무한 반복*/
+			animation-delay: 0s; /*키프레임 모션을 실행할 때의 지연 시간*/
+			animation-play-state: running; 
+			/*키프레임 모션을 실행할 때 동작 상태*/
+			/*running: 계속 진행, paused: 일시 정지*/
+			transform: rotate(50deg); /*선택 요소 각도만큼 회전*/
+		} 
+
+
+		/* 마우스 커서를 올리면 일시 정지하기 */
+		/*키프레임 모션을 실행할 때 동작 상태*/
+		/*running: 계속 진행, paused: 일시 정지*/
+		article:hover {
+			animation-play-state: paused;
+		} 
+		
+
+
+
+	</style>
+</head>
+
+<body>
+	<article></article>
+</body>
+
+</html>
