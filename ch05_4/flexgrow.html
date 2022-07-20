@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>document</title>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<style>
+
+		section {
+			width:100%;
+			background:lightcyan;
+			display:flex;
+		}
+		section article {       
+			background:aqua;
+			border:1px solid #000;
+			box-sizing:border-box;
+			font-size:50px;
+			color:#fff;
+			display:flex;
+			/*크기 지정 따로 하지 않았음
+			box-sizing와 부모요소에 flex만 지정
+			자식요소에 크기를 따로 지정하지 않으면 
+			자식요소는 display:inline-block의 defaul로 설정되어 입력테스트 크기만큼 설정*/
+		}
+
+		/* 요소의 여백 비율 확대하기*/
+		/*남은 부모 영역의 크기를 똑같이 배분하여 여분 설정*/
+		/* section article:nth-of-type(1) {
+			flex-grow:1;
+		}
+		section article:nth-of-type(2) {
+			flex-grow:1;
+		}
+		section article:nth-of-type(3) {
+			flex-grow:1;
+		} */
+		
+
+		/* 요소마다 여백 비율을 다르게 확대하기*/
+		/*남은 부모 영역의 크기를 첫번째 요소를 기준으로 배하여 여분 설정*/
+		section article:nth-of-type(1) {
+			flex-grow:1; /*1배, 기준*/
+		}
+		section article:nth-of-type(2) {
+			flex-grow:2; /*2배*/
+		}
+		section article:nth-of-type(3) {
+			flex-grow:3; /*3배*/
+		}
+		
+	</style>
+</head>
+
+<body>
+	<section>
+		<article>FLEX GROW</article>
+		<article>FLEX GROW</article>
+		<article>FLEX GROW</article>
+	</section>
+</body>
+
+</html>
