@@ -12,12 +12,15 @@ console.log(items[3]);
 /*const item2 = document.querySelector(".item2");
 console.log(item2.parentElement);*/
 
-/* 제일 가까운 상위 부모 요소 선택하기 
-const li = document.querySelector("li");
-console.log(li.closest("main"))*/
+/* 제일 가까운 상위 부모 요소 선택하기 */
+const li = document.querySelector("section");
+console.log(li.closest("main"))
+console.log(li.closest("section"))
+console.log(li.closest("ul"))
 
 
-/* 형제 요소 선택하기 */
+
+/* 형제 요소 선택하기 
 const item3 = document.querySelector(".item3");
 console.log(item3.previousElementSibling);
-console.log(item3.nextElementSibling);
+console.log(item3.nextElementSibling);*/
