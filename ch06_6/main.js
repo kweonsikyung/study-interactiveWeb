@@ -22,3 +22,4 @@ function activation(index, list){
     //첫번째 인수로 받은 순서에 해당하는 그룹의 요소만 찾아서 활성화
     list[index].classList.add("on");
 }
+// git수정용

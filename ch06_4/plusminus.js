@@ -16,3 +16,5 @@ btnMinus.addEventListener("click", ()=>{
     num--;
     console.log(num);
 })
+
+// git수정용
