@@ -20,7 +20,10 @@ console.log(li.closest("ul"))
 
 
 
+
 /* 형제 요소 선택하기 
 const item3 = document.querySelector(".item3");
 console.log(item3.previousElementSibling);
 console.log(item3.nextElementSibling);*/
+
+// git수정용
