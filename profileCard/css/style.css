@@ -32,6 +32,7 @@ section nav.menu{
     width: 100%;
 }
 /* 가상선택자 ::after을 이용해 float를 해제함 */
+/* 가상선택자 따로 공부하기 */
 section nav.menu::after{
     content: "";
     display: block;
