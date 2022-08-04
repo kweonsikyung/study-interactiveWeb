@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+//component - render()
 class R004_LifecycleEx extends Component{
     render() {
         console.log('3. render Call');
