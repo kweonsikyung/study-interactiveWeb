@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+// 배열함수
 class R014_ForEach extends Component{
 
     componentDidMount() {
