@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ForceUpdate from './R026_ForceUpdate'
+import ShallowEqual from './R029_ShallowEqual'
 
 function App() {
   return (
@@ -30,7 +30,7 @@ function App() {
       <ReactState reactString={"react"} />
       */}
       
-      <ForceUpdate />
+      <ShallowEqual />
     </div>
   );
 }
