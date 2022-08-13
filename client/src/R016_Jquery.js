@@ -19,6 +19,6 @@ class R016_Jquery extends Component{
             </div>
         )
     }
-}
+} 
 
 export default R016_Jquery;
