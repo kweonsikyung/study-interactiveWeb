@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import PropsNode from './R023_propsNode'
+import ForceUpdate from './R026_ForceUpdate'
 
 function App() {
   return (
@@ -26,6 +26,11 @@ function App() {
         <span>Node from App.js</span>
       </PropsNode>
       */}
+      {/* R024 예제 
+      <ReactState reactString={"react"} />
+      */}
+      
+      <ForceUpdate />
     </div>
   );
 }
