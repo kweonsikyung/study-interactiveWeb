@@ -1,0 +1,58 @@
+@charset "utf-8";
+@import url('https://fonts.gooleapis.com/css?family-Orbitron');
+
+/* 전체 요소의 여백과 목록의 꾸밈 효과 초기화 */
+*{
+    margin : 0;
+    padding: 0;
+}
+ol,ul{
+    list-style: none;
+}
+a{
+    outline: 0;
+    text-decoration: none;
+}
+img{
+    border: 0;
+}
+body{
+    font : 17px/1.4 "orbitron";
+    letter-spacing: 1px; /* 자간 설정 */
+    color: #ddd;
+    background: #000;
+
+}
+.wrap{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    perspective: 1300px; /* 3D요소를 위한 원근감 지정 */
+}
+.wrap>video{
+    width: 100%;
+    height: 100%;
+    /* 화면 크기에 맞게 영상을 꽉 채우는 작업 */
+    object-fit: cover;
+    position: fixed;
+    opacity: 0.5;
+}
+
+.wrap #circle{
+    width: 600px;
+    height: 800px;
+    position: absolute; /* 화면 정중앙 배치 */
+    top: 50%;
+    left: 50%;
+    margin-top: -400px;
+    margin-left: -300px;
+    border: 1px solid aqua;
+}
+.wrap #circle article{
+    width: 100%;
+    height: 100%;
+    position: absolute; /*article 요소 일단 겹쳐두기*/
+    top: 0px;
+    left: 0px;
+    background: rgba(255,255,255,0.4);
+}
