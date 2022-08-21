@@ -1,1 +1,1 @@
-<video src="img/최종본.mp4" autoplay loop muted></video>
+<img src="img/template.jpg">
