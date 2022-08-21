@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
-import ReturnMap from './R033_ReturnMap' 
+import ReactstrapAlerts from './R034_ReactstrapAlerts'
+import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
   return (
@@ -30,7 +31,7 @@ function App() {
       <ReactState reactString={"react"} />
       */}
       
-      <ReturnMap/>
+      <ReactstrapAlerts/>
     </div>
   );
 }
