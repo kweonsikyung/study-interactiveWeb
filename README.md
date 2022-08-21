@@ -1,4 +1,8 @@
 # study-interactiveWeb
 making interactive web with REACT
 
-별건 없지만 다 commit, push 합니다..^^
+<h1>project result</h1>
+<h2>profileCard</h2>
+<img src="img/profileCard.jpg">
+<h2>template</h2>
+<img src="img/template.jpg">
