@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 import './App.css';
-import ShallowEqual from './R029_ShallowEqual'
+import Fragments from './R032_Fragments' 
 
 function App() {
   return (
@@ -30,7 +30,7 @@ function App() {
       <ReactState reactString={"react"} />
       */}
       
-      <ShallowEqual />
+      <Fragments/>
     </div>
   );
 }
