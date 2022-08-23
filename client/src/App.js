@@ -1,5 +1,5 @@
 import React from "react";
-import './App.css';
+// import './App.css';
 import ReactstrapAlerts from './R034_ReactstrapAlerts'
 import ReactstrapBadges from './R035_ReactstrapBadges'
 import ReactstrapBreadcrumbs from './R036_ReactstrapBreadcrumbs'
@@ -23,7 +23,12 @@ import ReactstrapSpinner from './R053_ReactstrapSpinner'
 import ReactstrapTable from './R054_ReactstrapTable'
 import ReactstrapTab from './R055_ReactstrapTab'
 
-import 'bootstrap/dist/css/bootstrap.css'
+import FetchGet from './R059_FetchGet';
+import FetchPost from './R060_FetchPost';
+import AxiosGet from './R061_AxiosGet';
+import AxiosPost from './R062_AxiosPost';
+
+// import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
   return (
@@ -52,7 +57,7 @@ function App() {
       {/* R024 예제 
       <ReactState reactString={"react"} />
       */}
-      <ReactstrapAlerts/>
+      {/*<ReactstrapAlerts/>
       <ReactstrapBadges/>
       <ReactstrapBreadcrumbs/>
       <ReactstrapDropDown/>
@@ -63,7 +68,7 @@ function App() {
       <ReactstrapCollapse/>
      <ReactstrapFade/>
        <ReactstrapForm/>
-      {/*<ReactstrapInputGroup/>
+      <ReactstrapInputGroup/>
       <ReactstrapJumbotron />
       <ReactstrapListGroup/>
       <ReactstrapModal />
@@ -74,6 +79,12 @@ function App() {
       <ReactstrapSpinner/>
       <ReactstrapTable/>
       <ReactstrapTab/> */}
+
+
+      {/* <FetchGet/> */}
+       <FetchPost />
+      {/* <AxiosGet /> */}
+      {/* <AxiosPost /> */}
 
     </div>
   );
