@@ -1,4 +1,4 @@
-<h2>study-React<h2>
+<h2>study-React / 2022.08~<h2>
 
 # Getting Started with Create React App
 
