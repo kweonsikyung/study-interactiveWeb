@@ -60,10 +60,10 @@ function App() {
       <ReactstrapBottons/>
       <ReactstrapCard/>
       <ReactstrapCarousel/>
-      {/*<ReactstrapCollapse/>
-      <ReactstrapFade/>
-      <ReactstrapForm/>
-      <ReactstrapInputGroup/>
+      <ReactstrapCollapse/>
+     <ReactstrapFade/>
+       <ReactstrapForm/>
+      {/*<ReactstrapInputGroup/>
       <ReactstrapJumbotron />
       <ReactstrapListGroup/>
       <ReactstrapModal />
