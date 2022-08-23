@@ -60,7 +60,7 @@ function App() {
       <ReactstrapBottons/>
       <ReactstrapCard/>
       <ReactstrapCarousel/>
-      <ReactstrapCollapse/>
+      {/*<ReactstrapCollapse/>
       <ReactstrapFade/>
       <ReactstrapForm/>
       <ReactstrapInputGroup/>
@@ -73,7 +73,7 @@ function App() {
       <ReactstrapProgress />
       <ReactstrapSpinner/>
       <ReactstrapTable/>
-      <ReactstrapTab/>
+      <ReactstrapTab/> */}
 
     </div>
   );
