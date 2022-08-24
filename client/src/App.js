@@ -29,6 +29,8 @@ import AxiosGet from './R061_AxiosGet';
 import AxiosPost from './R062_AxiosPost';
 
 import CallbackFunc from './R063_CallbackFunc'
+import Promise1 from './R064_Promise'
+import Promise2 from './R065_Promise'
 
 // import 'bootstrap/dist/css/bootstrap.css'
 
@@ -88,8 +90,9 @@ function App() {
       {/* <AxiosGet /> */}
       {/* <AxiosPost /> */}
 
-      <CallbackFunc />
-
+      {/* <CallbackFunc /> */}
+      {/* <Promise1/> */}
+      <Promise2/>
     </div>
   );
 }
