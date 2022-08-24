@@ -82,8 +82,8 @@ function App() {
 
 
       {/* <FetchGet/> */}
-       <FetchPost />
-      {/* <AxiosGet /> */}
+       {/* <FetchPost /> */}
+      <AxiosGet />
       {/* <AxiosPost /> */}
 
     </div>
