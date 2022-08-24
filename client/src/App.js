@@ -28,6 +28,8 @@ import FetchPost from './R060_FetchPost';
 import AxiosGet from './R061_AxiosGet';
 import AxiosPost from './R062_AxiosPost';
 
+import CallbackFunc from './R063_CallbackFunc'
+
 // import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
@@ -83,8 +85,10 @@ function App() {
 
       {/* <FetchGet/> */}
        {/* <FetchPost /> */}
-      <AxiosGet />
+      {/* <AxiosGet /> */}
       {/* <AxiosPost /> */}
+
+      <CallbackFunc />
 
     </div>
   );
