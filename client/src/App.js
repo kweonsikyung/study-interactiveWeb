@@ -32,6 +32,20 @@ import CallbackFunc from './R063_CallbackFunc'
 import Promise1 from './R064_Promise'
 import Promise2 from './R065_Promise'
 
+import ReactonClick from './R066_onClick'
+import ReactChange from './R067_onChange'
+import ReactMouseMove from './R068_onMouseMove'
+import ReactMouseOver from './R069_onMouseOver'
+import ReactMouseOut from './R070_onMouseOut'
+import ReactonKey from './R071_OnKey'
+import ReactonSubmit from './R072_onSubmit'
+import ReactRef from './R073_ReactRef'
+import Currying from './R074_ReactCurrying'
+import ReactHoc from './R075_ReactHoc'
+import ContextApi from './R076_ContextApi'
+// import ContextApi from './R077_ContextApi'
+
+
 // import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
@@ -92,7 +106,15 @@ function App() {
 
       {/* <CallbackFunc /> */}
       {/* <Promise1/> */}
-      <Promise2/>
+      {/* <Promise2/> */}
+
+
+      <ReactonClick></ReactonClick>
+      <div></div>
+      <ReactChange></ReactChange>
+      <div></div>
+      <ReactMouseMove></ReactMouseMove>
+
     </div>
   );
 }
