@@ -114,7 +114,15 @@ function App() {
       <ReactChange></ReactChange>
       <div></div>
       <ReactMouseMove></ReactMouseMove>
-
+      <div></div>
+      <ReactMouseOver></ReactMouseOver>
+      <div></div>
+      <ReactMouseOut></ReactMouseOut>
+      <div></div>
+      <ReactonKey></ReactonKey>
+      <div></div>
+      <ReactonSubmit></ReactonSubmit>
+      
     </div>
   );
 }
