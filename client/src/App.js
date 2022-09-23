@@ -123,9 +123,9 @@ function App() {
       <div></div>
       <ReactonSubmit></ReactonSubmit>
       <ReactRef></ReactRef>
-      {/* <div></div>
-      <Currying></Currying>
       <div></div>
+      <Currying></Currying>
+      {/* <div></div>
       <ReactHoc></ReactHoc>
       <div></div>
       <ContextApi></ContextApi> */}
