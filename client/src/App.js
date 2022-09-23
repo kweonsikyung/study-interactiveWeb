@@ -122,7 +122,13 @@ function App() {
       <ReactonKey></ReactonKey>
       <div></div>
       <ReactonSubmit></ReactonSubmit>
-      
+      <ReactRef></ReactRef>
+      {/* <div></div>
+      <Currying></Currying>
+      <div></div>
+      <ReactHoc></ReactHoc>
+      <div></div>
+      <ContextApi></ContextApi> */}
     </div>
   );
 }
