@@ -125,9 +125,9 @@ function App() {
       <ReactRef></ReactRef>
       <div></div>
       <Currying></Currying>
-      {/* <div></div>
-      <ReactHoc></ReactHoc>
-      <div></div>
+     <div></div>
+      <ReactHoc name='React200'></ReactHoc>
+       {/* <div></div>
       <ContextApi></ContextApi> */}
     </div>
   );
