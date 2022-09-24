@@ -48,6 +48,9 @@ import React from "react";
 
 // import 'bootstrap/dist/css/bootstrap.css'
 
+
+import StrAddButton from './StrAddButton'
+
 function App() {
   return (
     <div>
@@ -133,7 +136,9 @@ function App() {
       <ContextApi></ContextApi> */}
       {/* <ContextApi></ContextApi> */}
 
-      
+      <span>{this.props.store.getState().data.str}</span><br/>
+      <StrAddButton store={this.props.store} />
+
     </div>
   );
 }
