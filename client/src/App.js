@@ -42,8 +42,8 @@ import ReactonSubmit from './R072_onSubmit'
 import ReactRef from './R073_ReactRef'
 import Currying from './R074_ReactCurrying'
 import ReactHoc from './R075_ReactHoc'
-import ContextApi from './R076_ContextApi'
-// import ContextApi from './R077_ContextApi'
+// import ContextApi from './Context/R076_ContextApi'
+// import ContextApi from './Context/R077_ContextApi'
 
 
 // import 'bootstrap/dist/css/bootstrap.css'
@@ -127,8 +127,10 @@ function App() {
       <Currying></Currying>
      <div></div>
       <ReactHoc name='React200'></ReactHoc>
-       {/* <div></div>
+       <div></div>
+       {/* fail
       <ContextApi></ContextApi> */}
+      {/* <ContextApi></ContextApi> */}
     </div>
   );
 }
