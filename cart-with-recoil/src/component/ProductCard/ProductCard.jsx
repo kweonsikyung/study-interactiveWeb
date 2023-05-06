@@ -31,7 +31,7 @@ const ProductCard = ({ data }) => {
       <MaxLine1>{description}</MaxLine1>
       <Button onClick={AddToCart} disabled={isAlreadyInCart}>
         {isAlreadyInCart
-          ? `장바구니에 추가됬습니다`
+          ? `장바구니에 추가되었습니다`
           : "장바구니에 추가"}
       </Button>
     </Wrapper>
